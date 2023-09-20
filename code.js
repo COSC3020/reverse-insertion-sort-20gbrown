@@ -13,3 +13,4 @@ function insertionSortReverse(arr) {
     return arr;
   }
   
+  //referenced: //https://stackoverflow.com/questions/54566639/insertion-sort-from-right-to-left-with-javascript
