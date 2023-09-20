@@ -37,3 +37,7 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Answer
+
+The average-case time complexity of Insertion Sort is O(n^2). This is because in each iteration of the outer loop compares the current element, with the elements in the subarray to its left, and moves the elements to right to make space. Average case considers distribution of input data. From my knowledge of insertion sort this means that if the data is randomly distributed,  each element will be compared to rougly half of the elements in the subarry before returning to its correct position in the array. This means the average number of compares and swaps should be equal, so the average-case time complexity should be O(n^2).
